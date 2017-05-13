@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Friend Location</string>
+    <string name="please_wait">Please Wait...</string>
+    <string name="friend_location">Friend Location</string>
+    <string name="name_hint">Name</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="register">Register</string>
+    <string name="already_have_account">Already Have Account? <u>Login</u></string>
+    <string name="login">Login</string>
+    <string name="new_user">New User <u>Register</u></string>
+    <string name="admin_error">Admin Error...</string>
+    <string name="mapApi">AIzaSyCkamJ1quSVEaSDo7RBwdg91H3_2NkKDOY</string>
+    <string name="my_circle">My Circle</string>
+    <string name="setting">Setting</string>
+    <string name="create_circle">Create Circle</string>
+    <string name="join_circle">Join Circle</string>
+    <string name="send_code">Send Code</string>
+    <string name="circle_option">Circle Options</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="members">Members</string>
+    <string name="circle_detail">Circle Details</string>
+    <string name="leave_this_circle">Leave this circle</string>
+
+    <!--Web Service-->
+    <!--<string name="post_url">http://192.168.137.1/friend_location/</string>-->
+    <string name="post_url">https://abvaland.000webhostapp.com/friendlocation/</string>
+
+    <string name="wrn_no_internet">No Internet Connection</string>
+    <string name="register_api">register.php</string>
+    <string name="login_api">login.php</string>
+    <string name="updateLocationApi">updateNewLocation.php</string>
+    <string name="circle_name">Circle Name</string>
+    <string name="new_circle">New Circle</string>
+    <string name="createCircleApi">createCircle.php</string>
+    <string name="getCirclesApi">getCircles.php</string>
+    <string name="joinCircleApi">joinCircle.php</string>
+    <string name="logout">Logout</string>
+    <string name="invite_code">Invite Code</string>
+    <string name="getFriendsApi">getFriendList.php</string>
+    <string name="settings">Settings</string>
+    <string name="editProfileApi">editProfile.php</string>
+    <string name="circle_list">Circle List</string>
+    <string name="edit_circle_name">Edit Circle Name</string>
+    <string name="remove_Circle">Remove Circle</string>
+    <string name="removeMemberApi">removeMember.php</string>
+    <string name="removeCircleApi">removeCircle.php</string>
+    <string name="locations">Locations</string>
+</resources>
