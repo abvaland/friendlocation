@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ajay.friendlocation.CircleDetailActivity">
+    <FrameLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="56dp">
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_gravity="left|center"
+            android:src="@drawable/ic_arrow_back_white_24dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/circle_detail"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            />
+    </FrameLayout>
+    <LinearLayout
+        android:id="@+id/llCircle"
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:gravity="center|left"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_group_brown_600_48dp"
+            android:layout_height="wrap_content"/>
+
+
+        <LinearLayout
+            android:id="@+id/llEditCircle"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txtCircleName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Friends"
+                android:textSize="21sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/edit_circle_name"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@id/llCircle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/members"
+            android:padding="5dp"
+            android:textColor="#FFFFFF"
+            android:background="#616161"
+            />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvMembers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnLeaveCircle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/leave_this_circle"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:background="#EF5350"
+        />
+    <Button
+        android:id="@+id/btnDeleteCircle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/remove_Circle"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:background="#EF5350"
+        />
+</RelativeLayout>

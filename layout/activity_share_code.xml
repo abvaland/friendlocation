@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ajay.friendlocation.ShareCodeActivity">
+    <FrameLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="56dp">
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_gravity="left|center"
+            android:src="@drawable/ic_arrow_back_white_24dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/invite_code"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            />
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Share this code with your friend to join your group"
+            android:textSize="19sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/txtInviteCode"
+            android:layout_width="match_parent"
+            android:text="AjaVh5"
+            android:gravity="center"
+            android:textSize="28dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+            android:id="@+id/btnShareCode"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:paddingRight="15dp"
+            android:textColor="@color/white"
+            android:background="@drawable/round_shape"
+            android:text="@string/send_code"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>
